@@ -8,3 +8,4 @@ numpy
 plotly
 tabulate
 rdkit
+dash-bootstrap-components
