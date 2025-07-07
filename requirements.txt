@@ -1,0 +1,10 @@
+dash>=2.7.0
+dash-mantine-components
+dash-iconify
+gunicorn
+pandas
+pubchempy
+numpy
+plotly
+tabulate
+rdkit

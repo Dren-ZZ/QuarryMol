@@ -1,0 +1,20 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap'
+);
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap'
+);
+
+@import url(
+    'https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap'
+);
+
+.body {
+    font-family: "Nunito, sans-serif";
+}
+
+
+.italic {
+    font-style: "italic";
+}

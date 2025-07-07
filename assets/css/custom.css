@@ -1,0 +1,33 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap'
+);
+.page-gradient {
+    background: linear-gradient(135deg, var(--mantine-color-green-1), var(--mantine-color-blue-2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.dmc-indicator {
+  width: 12px;
+  height: 4px;
+  background-color: var(--mantine-primary-color-filled);
+  transition: width 250ms ease;
+
+  &[data-active] {
+    width: 40px;
+  }
+}
+
+.dmc-controls {
+  transition: opacity 150ms ease;
+  opacity: 0;
+}
+
+.dmc-root {
+  &:hover {
+    .dmc-controls {
+      opacity: 1;
+    }
+  }
+}
