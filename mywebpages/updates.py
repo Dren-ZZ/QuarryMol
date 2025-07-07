@@ -32,12 +32,6 @@ timeline = dmc.Timeline(
     lineWidth=4,
     children=[
         timeline_item(
-            "Tue Jul 8 2025",
-            ["Some changes..."],
-            size="md",
-            color="dimmed"
-        ),
-        timeline_item(
             "Mon Jul 7 2025",
             ["Website deployed."],
             size="md",
