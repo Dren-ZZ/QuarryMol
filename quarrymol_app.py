@@ -74,6 +74,7 @@ navbar = dmc.Paper(
                 href="/"
             ),
             dmc.Group(
+                wrap="wrap",
                 children=[
                     nav_link("Home", href="/",),
                     nav_link("Updates", href="/updates"),
