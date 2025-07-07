@@ -9,7 +9,13 @@ dmc.add_figure_templates("mantine_light")
 app = Dash(
     __name__, external_stylesheets=dmc.styles.ALL,
     use_pages=True, pages_folder="mywebpages",
-    suppress_callback_exceptions=True
+    suppress_callback_exceptions=True,
+    meta_tags=[
+        {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0, maximum-scale=1.2, minimum-scale=0.5,"
+        }
+    ],
 )
 server = app.server
 
